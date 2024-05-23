@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Research Areas</title>
+  <style>
+    .research-area {
+      border: 1px solid #ccc;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    
+    .research-area h2 {
+      background-color: #f1f1f1;
+      padding: 10px;
+      cursor: pointer;
+      position: relative;
+    }
+    
+    .research-area h2:after {
+      content: "+";
+      position: absolute;
+      right: 10px;
+      font-size: 20px;
+    }
+    
+    .research-area.active h2:after {
+      content: "-";
+    }
+    
+    .research-area .content {
+      display: none;
+      padding: 10px;
+    }
+    
+    .research-area.active .content {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Research Areas</h1>
+  
+  <div class="research-area">
+    <h2>Research Area 1</h2>
+    <div class="content">
+      <p>Description of Research Area 1, including key focus areas, methodologies, and recent findings.</p>
+    </div>
+  </div>
+  
+  <div class="research-area">
+    <h2>Research Area 2</h2>
+    <div class="content">
+      <p>Description of Research Area 2, including key focus areas, methodologies, and recent findings.</p>
+    </div>
+  </div>
+  
+  <div class="research-area">
+    <h2>Research Area 3</h2>
+    <div class="content">
+      <p>Description of Research Area 3, including key focus areas, methodologies, and recent findings.</p>
+    </div>
+  </div>
+  
+  <div class="research-area">
+    <h2>Research Area 4</h2>
+    <div class="content">
+      <p>Description of Research Area 4, including key focus areas, methodologies, and recent findings.</p>
+    </div>
+  </div>
+  
+  <div class="research-area">
+    <h2>Research Area 5</h2>
+    <div class="content">
+      <p>Description of Research Area 5, including key focus areas, methodologies, and recent findings.</p>
+    </div>
+  </div>
+</body>
+</html>
+
